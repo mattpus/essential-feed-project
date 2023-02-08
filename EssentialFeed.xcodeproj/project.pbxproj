@@ -16,7 +16,6 @@
 		4A92A096298A28F500495D25 /* EssentialFeed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A92A094298A28F500495D25 /* EssentialFeed.xcdatamodeld */; };
 		4A92A098298A28F600495D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A92A097298A28F600495D25 /* Assets.xcassets */; };
 		4A92A09B298A28F600495D25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A92A099298A28F600495D25 /* LaunchScreen.storyboard */; };
-		4A92A0A6298A28F600495D25 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92A0A5298A28F600495D25 /* EssentialFeedTests.swift */; };
 		4A92A0B0298A28F600495D25 /* EssentialFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92A0AF298A28F600495D25 /* EssentialFeedUITests.swift */; };
 		4A92A0B2298A28F600495D25 /* EssentialFeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92A0B1298A28F600495D25 /* EssentialFeedUITestsLaunchTests.swift */; };
 		4A92A0DA298A2CF900495D25 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92A0D9298A2CF900495D25 /* FeedItem.swift */; };
@@ -69,7 +68,6 @@
 		4A92A09A298A28F600495D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A92A09C298A28F600495D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A92A0A1298A28F600495D25 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A92A0A5298A28F600495D25 /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
 		4A92A0AB298A28F600495D25 /* EssentialFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A92A0AF298A28F600495D25 /* EssentialFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedUITests.swift; sourceTree = "<group>"; };
 		4A92A0B1298A28F600495D25 /* EssentialFeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -153,8 +151,8 @@
 		4A92A08A298A28F500495D25 /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
-				4A92A0E1298AE0FC00495D25 /* Feed API */,
 				4A92A0D8298A2CDF00495D25 /* FeedFeature */,
+				4A92A0E1298AE0FC00495D25 /* Feed API */,
 				4A92A08B298A28F500495D25 /* AppDelegate.swift */,
 				4A92A08D298A28F500495D25 /* SceneDelegate.swift */,
 				4A92A08F298A28F500495D25 /* ViewController.swift */,
@@ -170,7 +168,6 @@
 		4A92A0A4298A28F600495D25 /* EssentialFeedTests */ = {
 			isa = PBXGroup;
 			children = (
-				4A92A0A5298A28F600495D25 /* EssentialFeedTests.swift */,
 				4A8B906429919276006A171D /* Feed API */,
 			);
 			path = EssentialFeedTests;
@@ -412,7 +409,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A92A0E0298A2FFC00495D25 /* RemoteFeedLoaderTests.swift in Sources */,
-				4A92A0A6298A28F600495D25 /* EssentialFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
