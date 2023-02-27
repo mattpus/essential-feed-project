@@ -122,6 +122,7 @@ class RemoteFeedLoaderTests: XCTestCase {
         return (sut, client)
     }
     
+  
     private func failure(_ error: RemoteFeedLoader.Error) -> RemoteFeedLoader.Result {
         return .failure(error)
     }
